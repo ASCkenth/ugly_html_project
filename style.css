@@ -1,3 +1,4 @@
+/* header/top of page */
 body{
     background-color:black;
 }
@@ -6,7 +7,7 @@ body{
     color:yellow;
     padding-top:15px;
     padding-bottom: 15px;
-    padding-left:47.5%;
+    padding-left:45%;
     margin:15px;
 
 }
@@ -23,9 +24,65 @@ body{
     margin-left:37.5%;
 }
 .list{
-    font:large;
+    font:bolder;
     font-size:15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color:white;
     margin-left: 3%;
 }
+/* time to style da pokemans */
+.all_pokemon_container{
+    color:white;
+}
+.each_pokemon_container img{
+    width:150px;
+    margin-left:45%;
+}
+/* bulbasaur */
+#bulbasaur_container{
+    background-color:#8cc48e;
+    border-radius:15px;
+    border:3px solid #e8e7a2;
+    padding:7px;
+    margin:10px;
+}
+#bulbasaur_container h3{
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;margin:10px;
+}
+#bulbasaur_container p{
+    font-family:'Courier New', Courier, monospace;margin:10px;
+}
+
+/* charmander */
+#charmander_container{
+    background-color:#f3b284;
+    border-radius:15px;
+    border:3px solid #e8e7a2;
+    padding:7px;
+    margin:10px;
+}
+#charmander_container h3{
+    font-size:25px;
+    font-family:'Courier New', Courier, monospace;margin:10px;
+}
+#charmander_container p{
+    font-family:'Courier New', Courier, monospace;margin:10px;
+}
+
+/* squirtle */
+#squirtle_container{
+    background-color:#8ec4ce;
+    border-radius:15px;
+    border:3px solid #e8e7a2;
+    padding:7px;
+    margin:10px;
+}
+#squirtle_container h3{
+    font-size:25px;
+    font-family:'Courier New', Courier, monospace;margin:10px;    
+}
+#squirtle_container p{
+    font-family:'Courier New', Courier, monospace;margin:10px;
+}
+
